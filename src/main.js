@@ -33,4 +33,4 @@ const config = {
 
 const game = new Phaser.Game(config);
 
-game.scene.start('BootScene', {scene: 'title'});
+game.scene.start('BootScene', {scene: 'fishing'});

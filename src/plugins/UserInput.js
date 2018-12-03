@@ -27,6 +27,7 @@ export default class UserInput {
                     context = this.scene;
                 } else {
                     context = this.scene.prefabs[callback_data[0]];
+
                 }
                 let method = context[callback_data[1]];
                 method.apply(context, user_input.args);

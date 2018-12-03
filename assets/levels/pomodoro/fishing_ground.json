@@ -1,21 +1,19 @@
 {
     "assets": {
-        "map_tileset": {"type": "image", "source": "assets/tile_sets/mountain_landscape.png"},
+        "mountain_landscape": {"type": "image", "source": "assets/tile_sets/mountain_landscape.png"},
+        "trees": {"type": "image", "source": "assets/tile_sets/trees.png"},
 
-        "fishing_ground_tilemap": {"type": "tilemap", "source": "assets/tile_maps/FishingGround.json"},
-
-        "player_spritesheet": {"type": "spritesheet", "source": "assets/sprites/Player.png", "frame_width": 32, "frame_height": 32}
-
+        "fishing_ground_tilemap": {"type": "tilemap", "source": "assets/tile_maps/FishingGround.json"}
     },
     "groups": [
-
+        "players"
     ],
     "map": {
         "key": "fishing_ground_tilemap",
-        "tilesets": ["map_tileset"]
+        "tilesets": ["mountain_landscape", "trees"]
     },
     "user_input": {
-        "fishing_ground_user_input": "assets/user_inputs/world_map_user_input.json"    
+        "fishing_ground_user_input": "assets/user_inputs/fishing_ground_user_input.json"    
     },
     "initial_user_input": "fishing_ground_user_input",
     "level": "FishingGround"

@@ -16,6 +16,11 @@ export default class BootScene extends Phaser.Scene {
             let level = this.levels[level_name];
             this.load.json(level_name, level.path);
         }
+
+        // LOAD Player_details
+        this.load.json('player_information', '../../../assets/levels/player_information.json');  
+
+
     }
     
     create (data) {

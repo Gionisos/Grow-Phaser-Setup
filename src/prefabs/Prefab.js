@@ -5,6 +5,8 @@ export default class Prefab extends Phaser.GameObjects.Sprite {
         this.scene = scene;
         this.name = name;
         this.scene.add.existing(this);
+
+        
         this.scene.groups[properties.group].add(this);
 
 

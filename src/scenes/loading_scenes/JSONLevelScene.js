@@ -8,11 +8,12 @@ export default class JSONLevelScene extends Phaser.Scene {
     }
     
     init (data) {
-        this.level_data = data.level_data;
-        
+        this.level_data = data.level_data; 
+        this.player_details = data.player_details;    
     }
     
     create () {
+
         this.groups = {};
         this.level_data.groups.forEach(function (group_name) {
             this.groups[group_name] = this.physics.add.group();
@@ -24,6 +25,7 @@ export default class JSONLevelScene extends Phaser.Scene {
             var prefab_data = this.level_data.prefabs[prefab_name];
             this.create_prefab(prefab_name, prefab_data);
         }
+        
 
         if (this.level_data.user_input) {
             this.user_inputs = {};

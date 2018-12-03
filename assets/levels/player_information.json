@@ -1,0 +1,65 @@
+{
+    "party_data": {
+        "Gionisos": {
+                "id": "123456789",
+                "name": "Gionisos",
+                "group": "0xAAAAAA",
+                "spritesheet": {"source": "assets/images/Player_1.png", "frame_width": 32, "frame_height": 48},
+                "experience": 0,
+                "current_level": 0,
+                "stats": {
+                    "attack": 5,
+                    "magic_attack": 5,
+                    "defense": 5,
+                    "health": 100,
+                    "mana": 100,
+                    "speed": 15
+                },
+                "stats_bonus": {
+                    "attack": 0,
+                    "magic_attack": 0,
+                    "defense": 0,
+                    "health": 0,
+                    "mana": 0,
+                    "speed": 0
+                },
+                "equipment": {
+                    "head": {"name": "default_equipment", "texture": ""},
+                    "body": {"name": "default_equipment", "texture": ""},
+                    "legs": {"name": "default_equipment", "texture": ""},
+                    "feet": {"name": "default_equipment", "texture": ""}
+                }
+
+        },
+        "Jabol": {
+                "id": "234567891",
+                "name": "Jabol",
+                "group": "0xffffff",
+                "spritesheet": {"source": "assets/images/Player_2.png", "frame_width": 32, "frame_height": 48},
+                "experience": 0,
+                "current_level": 0,
+                "stats": {
+                    "attack": 5,
+                    "magic_attack": 5,
+                    "defense": 5,
+                    "health": 100,
+                    "mana": 100,
+                    "speed": 15
+                },
+                "stats_bonus": {
+                    "attack": 0,
+                    "magic_attack": 0,
+                    "defense": 0,
+                    "health": 0,
+                    "mana": 0,
+                    "speed": 0
+                },
+                "equipment": {
+                    "head": {"name": "default_equipment", "texture": ""},
+                    "body": {"name": "default_equipment", "texture": ""},
+                    "legs": {"name": "default_equipment", "texture": ""},
+                    "feet": {"name": "default_equipment", "texture": ""}
+                }
+            }
+    }
+}

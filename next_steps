@@ -1,0 +1,58 @@
+
+Try loading html loader!
+
+
+-------------------- Player.js ----------------------
+
+Moving function 
+- left and bottom seem buggy, moves forward despite block
+- right and top seem fine
+
+
+
+
+
+Load player details from JSON file
+steps:
+- load json file into cache? 
+	- where? BootScene to load into cache and JsonLevelScene to retrieve it (cache.get)
+- load name in map - send from bootscene to jsonlevelscene player_details => console.log(this.player_details.party_data[currentPlayer].name)
+- load sprite sheet in player.js
+ 
+
+
+
+-------------------- FishingGround.js ----------------------
+
+- Move createobject somewhere else, preferably loadmap
+
+
+
+
+
+
+
+
+-------------------- HELPERS ----------------------
+
+
+
+
+
+Using Html loader - only thing that changes is the first loading into cache. It still 
+uses level files, etc. to load things into the world as needed in the level! Not much needs 
+to be changed!
+
+
+
+
+
+
+
+
+
+
+-------------------- SUCCESSES ----------------------
+Export map into map building function
+
+- Create white circle around character
